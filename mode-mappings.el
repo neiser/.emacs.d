@@ -101,4 +101,11 @@
 (add-to-list 'auto-mode-alist '("access\\.conf\\'" . apache-mode))
 (add-to-list 'auto-mode-alist '("sites-\\(available\\|enabled\\)/" . apache-mode))
 
+;; PHP
+(autoload 'php-mode "php-mode.el" "Php mode." t)
+(add-to-list 'auto-mode-alist '("/*.\.php[345]?$" . php-mode))
+
+
+
+
 (provide 'mode-mappings)
