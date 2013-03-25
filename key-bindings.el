@@ -318,4 +318,6 @@
 (define-key occur-mode-map (kbd "n") 'next-line)
 (define-key occur-mode-map (kbd "p") 'previous-line)
 
+(define-key global-map (kbd "RET") 'newline-and-indent)
+
 (provide 'key-bindings)

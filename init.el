@@ -94,6 +94,8 @@
 (require 'setup-html-mode)
 (require 'setup-paredit)
 (require 'setup-auctex)
+(require 'setup-smart-tabs)
+(require 'setup-c-mode)
 
 ;; Language specific setup files
 (eval-after-load 'js2-mode '(require 'setup-js2-mode))
