@@ -59,6 +59,7 @@
    (cons 'move-text melpa)
    (cons 'gist melpa)
    (cons 'htmlize melpa)
+   (cons 'smartparens melpa)
    (cons 'elisp-slime-nav melpa)
    ;(cons 'elnode marmalade)
    (cons 'slime-js marmalade)
@@ -97,6 +98,9 @@
 (require 'setup-smart-tabs)
 (require 'setup-c-mode)
 (require 'setup-perl-mode)
+
+;; Default setup of smartparens
+(require 'smartparens-config)
 
 ;; Language specific setup files
 (eval-after-load 'js2-mode '(require 'setup-js2-mode))
