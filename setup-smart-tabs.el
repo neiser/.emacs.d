@@ -44,5 +44,9 @@
 (smart-tabs-advice c-indent-line c-basic-offset)
 (smart-tabs-advice c-indent-region c-basic-offset)
 
+(smart-tabs-advice cperl-indent-line cperl-indent-level)
+
+(smart-tabs-advice vhdl-indent-line vhdl-basic-offset)
+(setq vhdl-indent-tabs-mode t)
 
 (provide 'setup-smart-tabs)
