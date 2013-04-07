@@ -8,16 +8,9 @@
       ido-auto-merge-work-directories-length -1
       ido-create-new-buffer 'always
       ido-use-filename-at-point nil
-      ido-max-prospects 10
-      ido-ignore-buffers
-      '("\\` " "^\\*ESS\\*" "^\\*Messages\\*" "^\\*Help\\*" "^\\*Buffer"
-        "^\\*.*Completions\\*$" "^\\*Ediff" "^\\*tramp" "^\\*cvs-"
-        "_region_" " output\\*$" "^TAGS$" "^\*Ido")
-      ido-ignore-directories
-      '("\\`auto/" "\\.prv/" "\\`CVS/" "\\`\\.\\./" "\\`\\./")
-      ido-ignore-files
-      '("\\`auto/" "\\.prv/" "_region_" "\\`CVS/" "\\`#" "\\`.#"
-        "\\`\\.\\./" "\\`\\./" "\\.ido.last"))
+      ido-max-prospects 10)
+
+(add-to-list 'recentf-exclude "\\.ido.last\\'")
 
 (add-hook
  'ido-setup-hook
