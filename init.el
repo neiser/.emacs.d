@@ -98,6 +98,7 @@
 (require 'setup-smart-tabs)
 (require 'setup-c-mode)
 (require 'setup-perl-mode)
+(require 'setup-cmake-mode)
 
 ;; Default setup of smartparens
 (require 'smartparens-config)
